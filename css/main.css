@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+}
+
+* {box-sizing: border-box}
+
+.slider {
+    width: 800px;
+    height: 350px;
+    margin: 100px auto;
+    max-width: 80%;
+}
+
+.slider2 {
+    width: 800px;
+    height: 250px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.text {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+.red, .green, .blue {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red {
+    background: rgb(204, 41, 41);
+}
+
+.green {
+    background: rgb(31, 192, 31);
+}
+
+.blue {
+    background: rgb(22, 22, 216);
+}

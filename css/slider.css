@@ -1,0 +1,41 @@
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.slide-container {
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+}
+
+.slider-btn {
+    background: none;
+    border: none;
+    transition: .5s;
+    width: 30px;
+    outline: none;
+}
+
+.slider-btn-white {
+    color: #ffffff;
+}
+
+.slider-btn-white:hover {
+    color: #000000;
+}
+
+.slider-btn:hover {
+    background: silver;
+}
+
+.animate {
+    transition: 1s;
+}
+
+.slider-wrapper {
+    display: flex;
+}
